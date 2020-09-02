@@ -14,6 +14,9 @@
 	@import url(
 	https://fonts.googleapis.com/css?family=Lato:400,700
 );
+@media print {
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
 body {
 	background: #fff;
 	font-family: Lato, sans-serif;
@@ -218,12 +221,6 @@ h4 span:first-child {
 				<strong>Email</strong>
 				<div class="email">wronieckajolanta@gmail.com</div>
 			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="website">
-					<div class="email">576054834</div>
-				</div>
-			</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-6">
@@ -322,7 +319,7 @@ h4 span:first-child {
 		</div>
 	</section>
 
-	<section id="work" class="row">
+	<section id="work" class="row  pagebreak">
 		<aside class="col-sm-3">
 			<h3>Experience</h3>
 		</aside>
@@ -383,7 +380,7 @@ h4 span:first-child {
 			</div>
 			<div class="col-sm-12">
 				<h4 class="strike-through">
-					<span>Automation testerPragmatic Coders  at Pragmatic Coders</span>
+					<span>Automation tester at Pragmatic Coders</span>
 				</h4>
 				<div class="website pull-right">
 					<a href=""></a>
@@ -401,7 +398,7 @@ h4 span:first-child {
 		
 		
 	
-	<section id="education" class="row">
+	<section id="education" class="row pagebreak">
 		<aside class="col-sm-3">
 			<h3>Education</h3>
 		</aside>
@@ -491,7 +488,7 @@ h4 span:first-child {
 						<p class="name">
 								<strong><p>Wiktor Żołnowski</p> </strong><span>Co- CEO</span> <p>Pragmatic Coders Sp. z o.o.</p>
 							</p>
-						<div><strong><p>Contact data:</p></strong><p>wiktor.zolnowski@pragmaticcoders.com</p><p>+48 511170013</p> </div>
+						<div><strong><p>Contact data:</p></strong><p>wiktor.zolnowski@pragmaticcoders.com</p> </div>
 				</blockquote>
 			</div>
 			</div>
