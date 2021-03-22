@@ -1,2 +1,2 @@
-# jolawro.github.io
-My [resume](https://jolawro.github.io/)
+# biern-j.github.io
+My [resume](https://biern-j.github.io/)
